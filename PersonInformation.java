@@ -21,7 +21,7 @@ public class PersonInformation {
         pr.getMname(Mname);
         
         System.out.print("Citizenship: ");
-        int cz = sc.nextInt();
+        Stirng cz = sc.nextLine();
         pr.getCitizen(cz);
         
         System.out.print("Gender: ");
